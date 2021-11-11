@@ -35,11 +35,11 @@ body {
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -73,9 +73,9 @@ body {
     line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.64rem;
+    font-size: calc( 0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -682,13 +682,51 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-sLwysfoMxu {
-  background-image: url("../../../assets/images/linkedin-banner-image-2-1536x768.png");
+.cid-sOrClkKCqQ {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
 }
-.cid-sLwysfoMxu .mbr-section-title {
-  color: #fafafa;
+.cid-sOrClkKCqQ .bg-facebook {
+  background: #1778f2;
+  color: #ffffff;
 }
-.cid-sLwysfoMxu .mbr-text,
-.cid-sLwysfoMxu .mbr-section-btn {
-  color: #232323;
+.cid-sOrClkKCqQ .bg-facebook:hover {
+  background: #0b60cb;
+}
+.cid-sOrClkKCqQ .bg-instagram {
+  background: #f00075;
+  color: #ffffff;
+}
+.cid-sOrClkKCqQ .bg-instagram:hover {
+  background: #bd005c;
+}
+.cid-sOrClkKCqQ .iconfont-wrapper {
+  display: inline-block;
+  font-size: 32px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.cid-sOrClkKCqQ [class^="socicon-"]:before,
+.cid-sOrClkKCqQ [class*=" socicon-"]:before {
+  line-height: 55px;
+  padding: .6rem;
+}
+.cid-sM2VsVFBd9 {
+  background-image: url("../../../assets/images/logo-1200x1200.png");
+}
+.cid-sM2VsVFBd9 .mbr-text,
+.cid-sM2VsVFBd9 .mbr-section-btn {
+  text-align: center;
+}
+.cid-sM2VsVFBd9 .mbr-section-subtitle {
+  text-align: right;
+}
+.cid-sM2VsVFBd9 .mbr-section-title {
+  text-align: center;
+  color: #bbbbbb;
 }
