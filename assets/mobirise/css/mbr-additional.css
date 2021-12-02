@@ -582,9 +582,6 @@ a:hover {
   color: #ffffff;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
-}
 .form-control {
   font-family: 'Jost', sans-serif;
   font-size: 1.1rem;
@@ -682,10 +679,26 @@ body {
 a {
   transition: color 0.6s;
 }
+.cid-sM2VsVFBd9 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-image: url("../../../assets/images/tytul-1-1640x624.png");
+}
+.cid-sM2VsVFBd9 .mbr-text,
+.cid-sM2VsVFBd9 .mbr-section-btn {
+  text-align: center;
+}
+.cid-sM2VsVFBd9 .mbr-section-subtitle {
+  text-align: right;
+}
+.cid-sM2VsVFBd9 .mbr-section-title {
+  text-align: center;
+  color: #bbbbbb;
+}
 .cid-sOrClkKCqQ {
-  padding-top: 1rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 .cid-sOrClkKCqQ .bg-facebook {
   background: #1778f2;
@@ -716,17 +729,21 @@ a {
   line-height: 55px;
   padding: .6rem;
 }
-.cid-sM2VsVFBd9 {
-  background-image: url("../../../assets/images/tytul-1-1640x624.png");
+.cid-sQrogiw3Ys {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #fafafa;
 }
-.cid-sM2VsVFBd9 .mbr-text,
-.cid-sM2VsVFBd9 .mbr-section-btn {
-  text-align: center;
+.cid-sQrogiw3Ys .mbr-text {
+  text-align: left;
 }
-.cid-sM2VsVFBd9 .mbr-section-subtitle {
-  text-align: right;
+.cid-sQrwGPJXln {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
 }
-.cid-sM2VsVFBd9 .mbr-section-title {
-  text-align: center;
-  color: #bbbbbb;
+.cid-sQrAd0t53X {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
 }
